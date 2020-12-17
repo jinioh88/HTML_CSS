@@ -1,0 +1,67 @@
+:root {
+  /* Color */
+  --white-color: #fff;
+  --black-color: black;
+  --black-light-color: rgb(66, 65, 63);
+  --blue-color: #045fd4;
+  --red-color: #ff0000;
+  --grey-dark-color: #909090;
+  --grey-light-color: #e0e0e0;
+
+  /* Padding */
+  --spacing: 12px;
+  --spacing-small: 6px;
+  --avatar-size: 36px;
+
+  /* Font Size */
+  --font-large: 20px;
+  --font-regular: 16px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacing);
+  background-color: var(--black-light-color);
+  color: var(--white-color);
+}
+
+header .logo .fa-youtube {
+  color: var(--red-color);
+  vertical-align: middle;
+  font-size: larger;
+}
+
+header .logo .title {
+  font-weight: 800;
+}
+
+header .icons .fa-search {
+  margin-right: var(--spacing);
+}
+
+.player {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: var(--black-color);
+}
+
+.player video {
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+}
