@@ -172,3 +172,63 @@ header .icons .fa-search {
   color: var(--red-color);
   font-size: var(--font-medium);
 }
+
+.upNext {
+  padding: 0 var(--spacing);
+}
+
+.upNext > .title {
+  font-size: var(--font-medium);
+  color: var(--grey-dark-color);
+  margin-bottom: var(--spacing-small);
+}
+
+.upNext .item {
+  display: flex;
+  margin-top: var(--spacing);
+}
+
+.upNext .item .img {
+  flex-basis: 35%;
+  margin-right: var(--spacing-small);
+}
+
+.upNext .item .img img {
+  width: 100%;
+}
+
+.upNext .item .itemInfo {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.upNext .item .moreBtn {
+  flex-basis: 5%;
+  height: 100%;
+}
+
+.upNext .item .itemInfo .title {
+  font-size: var(--font-small);
+}
+
+.upNext .item .itemInfo .name,
+.upNext .item .itemInfo .views {
+  font-size: var(--font-micro);
+  color: var(--grey-dark-color);
+}
+
+.infoAndUpNext {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .infoAndUpNext {
+    flex-direction: row;
+  }
+
+  .upNext {
+    padding: var(--spacing);
+  }
+}
