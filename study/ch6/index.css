@@ -1,0 +1,28 @@
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-justify {
+  font-size: 20px;
+  text-align: left;
+  text-indent: 3%;
+  line-height: 1.2;
+  border: 1px solid #ccc;
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.align-justify:hover {
+  overflow: visible;
+  width: auto;
+}
