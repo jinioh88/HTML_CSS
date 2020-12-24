@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+
+.main__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 30px;
+  box-sizing: border-box;
+}
+
+.header__logo i {
+  color: orange;
+}
+
+.header__logo-title {
+  color: orange;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.header__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header__search-title {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  display: block;
+  width: 280px;
+}
+
+.header__search-title::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.header__search i {
+  position: absolute;
+  right: 10px;
+  opacity: 0.4;
+}
+
+.store-button {
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.store-button i {
+  margin-right: 1px;
+}
