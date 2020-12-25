@@ -24,6 +24,7 @@ body {
   left: 0;
   right: 0;
   background-color: white;
+  z-index: 1;
 }
 
 .header__logo i {
@@ -75,12 +76,17 @@ body {
   margin-right: 1px;
 }
 
-.article-sections {
-  background-color: rgb(255, 246, 227);
-  margin-top: 80px;
+article {
+  padding: 40px 0px;
 }
 
-.article-sections article:first-child {
+.article-sections {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-sections article {
   display: flex;
   justify-content: space-between;
 }
@@ -113,5 +119,24 @@ body {
 }
 
 .article--image {
-  margin-right: 20px;
+  margin: 0px 20px;
+}
+
+.article-sections article:first-child {
+  background-color: rgb(255, 246, 227);
+}
+
+.article-sections article:nth-child(2) {
+  background-color: whitesmoke;
+  flex-direction: row-reverse;
+}
+
+.article-btn button {
+  margin-top: 15px;
+  padding: 9px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgb(201, 201, 195);
+  border-style: none;
+  border-radius: 3px;
 }
