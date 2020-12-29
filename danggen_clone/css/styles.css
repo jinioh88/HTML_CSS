@@ -214,3 +214,19 @@ nav .logo-white-title {
 .nav-title span {
   margin-bottom: 17px;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  background-color: gray;
+}
+
+footer .fotter-right {
+  margin: 0px 20px;
+}
+
+.fotter-right i {
+  margin-left: 20px;
+}
