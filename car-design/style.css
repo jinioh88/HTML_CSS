@@ -30,6 +30,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .header-container li {
@@ -55,4 +56,31 @@ main {
 
 main h1 {
   color: #00c2ff;
+}
+
+footer {
+  background-color: black;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* footer li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+footer li p:first-child {
+  color: #00c2ff;
+  margin-bottom: -15px;
+}
+
+footer li:last-child {
+  margin-right: 2rem;
 }
